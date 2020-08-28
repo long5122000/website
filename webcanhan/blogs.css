@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+section .container-fluid{
+  position: relative;
+  background-image: url('./img/Background-image.png');
+  width: 100%;
+  
+  margin-bottom: 100px;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+section .container-fluid:before{
+  content: '';
+  position: absolute;
+ 
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+section .container-fluid p{
+  position: relative;
+  color: white;
+  text-align: center;
+  padding-top: 400px;
+  font-size: 100px;
+  font-weight: 400;
+}
+section .container-fluid a{
+  position: relative;
+  color: black;
+  text-align: center;
+  border:3px solid black;
+  font-size: 50px;
+  font-weight: 400;
+  text-decoration: none;
+   background: gray;
+}
+
+.container-main {
+    margin-top: 5%;
+}
+
+.search-keyword-main {
+    position: absolute;
+    top: 30%;
+    right: 6%;
+    transform: translateX(-2px);
+}
+
+.search-keyword-main i {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    color: #b3b1b1;
+    cursor: pointer;
+}
+
+.border-search-main input[type="text"] {
+    padding-left: 10px;
+    padding-right: 83px;
+    border-top-width: 0px;
+    padding-bottom: 10px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-top: 10px;
+}
+
+.button button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 115px;
+    padding-left: 113px;
+    position: absolute;
+    left: 7%;
+    top: 60%;
+    transform: translateX(-1px);
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+.border-search-main {
+    margin-left: 5%;
+    background-color: #dad4d4;
+    height: 20%;
+    position: relative;
+    padding-top: 1px;
+}
+
+.button button:focus {
+    background-color: red;
+    color: white;
+}
+
+
+/* categor */
+
+.border-category {
+    background-color: #dad4d4;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.list-ul-category {
+    list-style: none;
+    padding-left: 23px;
+}
+
+.list-li-category {
+    border-bottom: 1px solid #b5b0b091;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    margin-right: 21px;
+    cursor: pointer;
+    color: #827a7a;
+}
+
+.li-firts-category {
+    font-size: 1.2rem;
+    color: #000000ad;
+}
+
+.li-end-category {
+    padding-bottom: 25px;
+}
+
+.list-li-category1:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+.list-li-category2:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+.list-li-category3:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+.list-li-category4:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+.list-li-category5:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+.list-li-category6:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+.list-li-category7:hover {
+    transform: scale(1.01);
+    transition: transform 0.1s;
+}
+
+
+/* recent-post */
+
+.border-recent-post {
+    background-color: #dad4d4;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+.right-recent-post {
+    position: relative;
+}
+
+.list-ul-recent-post {
+    padding-left: 23px;
+}
+
+.text-recent-post .p-1 p {
+    font-size: 16px;
+    position: absolute;
+    top: 23%;
+    left: 0;
+}
+
+.text-recent-post .p-2 p {
+    font-size: 14px;
+    position: absolute;
+    top: 55%;
+    left: 0;
+    color: #756c6c;
+}
+
+.list-ul-recent-post {
+    list-style: none;
+}
+
+.right-recent-post {
+    padding-left: 0;
+}
+
+.text-recent-post p {
+    margin-bottom: 0;
+}
+
+.p-2 {
+    padding: 0;
+}
+
+.list-li-recent-post {
+    margin-bottom: 17px;
+    cursor: pointer;
+}
+
+.li-firts-recent-post {
+    font-size: 1.2rem;
+    color: #000000ad;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #c7c6c6;
+    padding-right: 0px;
+    margin-right: 20px;
+}
+
+.li-img-firts-recent-post {
+    padding-top: 13px;
+}
+
+.li-end-recent-post {
+    padding-bottom: 40px;
+}
+
+.list-li-recent-post1:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+
+.list-li-recent-post2:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+
+.list-li-recent-post3:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+
+.list-li-recent-post4:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+
+.list-li-recent-post5:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s;
+}
+
+.img-singer {
+    overflow: hidden;
+}
+
+.img-singer img {
+    width: 750px;
+    height: 375px;
+    transform: scale(1, 1);
+    transition: transform 0.5s;
+}
+
+.img-singer img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+/* text-main */
+
+.text-main {
+    margin-top: 5%;
+}
+
+.text-main-firts p {
+    font-size: 1.5rem;
+    color: rgb(110, 169, 185);
+}
+
+#contact-location{
+  margin-top: 50px;
+  background-color: black;
+  min-height: 300px;
+}
+#contact-location .container{
+  padding-top: 100px;
+}
+#contact-location .container .row .logo-location ul{
+  display: flex;
+  list-style-type: none;
+}
+#contact-location .container .row p{
+  color: white;
+}
+#contact-location .container .row h3{
+  color: white;
+}
+#contact-location .container .row .logo-location ul li{
+  padding: 20px 25px 0px 0px;
+}
+#contact-location  .container .row  .logo-location ul li i{
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: white;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-facebook{
+  background: #3b5797;
+
+}
+#contact-location  .container .row  .logo-location ul li i.fa-google-plus{
+  background: #db4337;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-twitter{
+  background: #00aced;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-youtube{
+  background: #bb0000;
+}
+@media (max-width: 767px) {
+  
+  #contact-location{
+    margin-top: 500px;
+  }
+  #contact-location .container{
+  padding-top: 0px;
+  text-align: center;
+  }
+  #contact-location  .container .row  .logo-location{
+    margin-left: 60px;
+  }
+}

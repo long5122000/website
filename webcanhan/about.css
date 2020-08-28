@@ -1,0 +1,90 @@
+#banner{
+	background-image: url('./img/about/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+}
+#banner a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+#banner a:hover{
+	color: #e91e63;
+}
+#banner p{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	line-height: 300px;
+}
+#document{
+	margin-top: 40px;
+}
+#daotao h3{
+	text-align: center;
+
+}
+#daotao img{
+	margin-top: 30px;
+	margin-left: 450px;
+}
+#contact-location{
+	margin-top: 50px;
+	background-color: black;
+	min-height: 300px;
+}
+#contact-location .container{
+	padding-top: 100px;
+}
+#contact-location .container .row .logo-location ul{
+	display: flex;
+	list-style-type: none;
+}
+#contact-location .container .row p{
+	color: white;
+}
+#contact-location .container .row h3{
+	color: white;
+}
+#contact-location .container .row .logo-location ul li{
+	padding: 20px 25px 0px 0px;
+}
+#contact-location  .container .row  .logo-location ul li i{
+	line-height: 35px;
+	text-align: center;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	color: white;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-facebook{
+	background: #3b5797;
+
+}
+#contact-location  .container .row  .logo-location ul li i.fa-google-plus{
+	background: #db4337;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-twitter{
+	background: #00aced;
+}
+#contact-location  .container .row  .logo-location ul li i.fa-youtube{
+	background: #bb0000;
+}
+@media (max-width: 767px) {
+	#daotao .container img{
+		margin-left: 90px;
+	}
+	#contact-location .container{
+	padding-top: 0px;
+	text-align: center;
+	}
+	#contact-location  .container .row  .logo-location{
+		margin-left: 60px;
+	}
+	#document .container .row .card{
+		margin-left: 20px;
+	}
+
+}
